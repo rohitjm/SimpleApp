@@ -4,9 +4,9 @@ files:
  - source: /
    destination: /
 hooks:
-  Install:
+   BeforeInstall:
     - location: setup.sh
-      timeout: 3600
-  ApplicationStart:
+      runas: root
+   ApplicationStart:
     - location: start.sh
-      timeout: 3600
+      runas: root
