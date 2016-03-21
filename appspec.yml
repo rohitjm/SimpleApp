@@ -5,8 +5,8 @@ files:
    destination: /home/ec2-user/SimpleApp
 hooks:
   Install:
-    - location: setup.sh
+    - location: /home/ec2-user/SimpleApp/setup.sh
       timeout: 3600
   ApplicationStart:
-    - location: start.sh
+    - location: /home/ec2-user/SimpleApp/start.sh
       timeout: 3600
