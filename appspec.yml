@@ -2,11 +2,11 @@ version: 0.0
 os: linux
 files:
  - source: /
-   destination: /
+   destination: /home/ec2-user/SimpleApp
 hooks:
-   BeforeInstall:
+  Install:
     - location: setup.sh
-      runas: root
-   ApplicationStart:
+      timeout: 3600
+  ApplicationStart:
     - location: start.sh
-      runas: root
+      timeout: 3600
