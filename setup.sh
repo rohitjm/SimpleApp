@@ -1,2 +1,1 @@
-cd /home/ec2-user/SimpleApp/
-npm install
+(cd /home/ec2-user/SimpleApp/ && npm install)
