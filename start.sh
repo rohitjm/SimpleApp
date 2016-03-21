@@ -1,1 +1,1 @@
-node ./app.js
+node /home//home/ec2-user/SimpleApp/app.js
