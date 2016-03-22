@@ -1,1 +1,1 @@
-(cd /home/ec2-user/SimpleApp/ && /usr/local/bin/npm install)
+(cd /home/ec2-user/SimpleApp/ && sudo /usr/local/bin/npm install)
